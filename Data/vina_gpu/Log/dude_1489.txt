@@ -1,0 +1,46 @@
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 42
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.7      0.000      0.000
+   2         -7.4      1.898      4.799
+   3         -7.3      2.979      6.044
+   4         -7.3      2.737      7.547
+   5         -7.2      2.097      6.532
+   6         -7.1      2.956      5.775
+   7         -7.1      1.979      4.706
+   8         -7.0      2.009      5.790
+   9         -7.0      2.683      7.788
+  10         -6.9      3.054      6.011
+  11         -6.9      1.945      4.641
+  12         -6.8      3.072      7.334
+  13         -6.8      1.635      5.603
+  14         -6.8      2.173      5.813
+  15         -6.7      2.344      7.860
+  16         -6.7      2.870      7.272
+  17         -6.7      3.668      8.741
+  18         -6.7      2.811      8.572
+Writing output ... done.

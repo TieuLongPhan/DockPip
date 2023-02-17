@@ -1,0 +1,43 @@
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 42
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.3      0.000      0.000
+   2         -7.2      1.198      2.714
+   3         -6.9      1.774      6.589
+   4         -6.9      2.895      7.056
+   5         -6.9      1.326      2.234
+   6         -6.8      2.440      5.361
+   7         -6.7      1.955      6.249
+   8         -6.7      3.369      7.051
+   9         -6.7      3.207      6.347
+  10         -6.7      1.548      4.372
+  11         -6.6      2.557      5.559
+  12         -6.6      1.681      6.576
+  13         -6.6      1.662      3.552
+  14         -6.6      2.478      3.815
+  15         -6.6      2.416      4.089
+Writing output ... done.

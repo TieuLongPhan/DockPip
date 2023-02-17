@@ -1,0 +1,42 @@
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 42
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.7      6.104      8.593
+   3         -8.7      4.340      5.550
+   4         -8.6      2.308      3.566
+   5         -8.6      1.416      2.110
+   6         -8.4      3.296      6.563
+   7         -8.4      3.315      6.779
+   8         -8.4      3.077      7.767
+   9         -8.4      3.845      7.888
+  10         -8.4      3.010      5.726
+  11         -8.3      3.052      5.292
+  12         -8.3      4.713      8.758
+  13         -8.3      4.298      8.343
+  14         -8.2      3.747      7.985
+Writing output ... done.
